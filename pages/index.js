@@ -1,5 +1,7 @@
 import React from 'react'
-import getUser from '../utils/getUsers'
+
+import getUser from '../utils/getUser'
+
 
 const Index = ({ repos, user }) => {
   return(
