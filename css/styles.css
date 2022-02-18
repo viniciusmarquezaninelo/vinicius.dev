@@ -3,5 +3,9 @@
 @import "tailwindcss/utilities";
 
 body {
-  background: #F3F4FB url(/images/pngs/back-network.png) top center no-repeat;
+  background: #F3F4FB;
+}
+
+.bg-network {
+  background: url(/images/pngs/back-network.png) top right no-repeat;
 }
