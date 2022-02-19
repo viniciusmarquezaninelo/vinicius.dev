@@ -7,7 +7,11 @@ module.exports = {
     fontFamily: {
       sans: ['"Titillium Web"']
     },
-    extend: {},
+    extend: {
+      colors: {
+        lightPink : '#F05E7B'
+      }
+    },
   },
   plugins: [],
 }
