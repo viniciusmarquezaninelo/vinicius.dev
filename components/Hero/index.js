@@ -7,9 +7,9 @@ const Hero = () =>  {
       <div className="pt-16 md:pt-32">
         <h1 className='text-4xl uppercase pl-16'>Hi, I'm Vinicius</h1>
         <h2 className='text-4xl font-bold md:text-5xl uppercase pl-16'>Fullstack Developer</h2>
-        <div className="w-full relative border border-lightPink rounded px-16 pb-4 pt-10 mt-6">
+        <div className="mx-8 px-8 relative border border-lightPink rounded md:mx-0 md:px-16 pb-4 pt-10 mt-6">
           <h3 className="absolute bg-lightPink text-white py-2 px-6 top-0 -mt-5 text-2xl font-bold uppercase">Contact me</h3>
-          <p>
+          <p className="text-center md:text-left">
             <AiFillLinkedin className='text-6xl inline-block mr-6'/> 
             <AiOutlineGithub className='text-6xl inline-block mr-6'/>
             <AiOutlineMail className='text-6xl inline-block mr-6'/>
