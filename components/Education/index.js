@@ -10,9 +10,9 @@ const degrees = [
     institution: 'Unicesumar - University of Maringá',
   },
   {
-    degree: 'GRADUATION',
-    subject: 'ANALYSIS AND SYSTEMS DEVELOPMENT',
-    institution: 'Unicesumar - University of Maringá',
+    degree: '',
+    subject: 'Fullstack Master',
+    institution: 'DevPleno',
   }
 ]
 
