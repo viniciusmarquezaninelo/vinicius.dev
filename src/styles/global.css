@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --transition: all 400ms ease;
+
+
+  --color-bg: #1f1f38;
+  --color-primary: #4DB5FF;
+  --color-light: rgba(255, 255, 255, 0.6);
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-ms: 90%;  
+}
+
+body {
+  background: #1f1f38;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  line-height: 1.7;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: .5rem;
+  background: transparent;
+  border: 2px solid rgba(77, 181, 255, 0.4);
+  resize: none;
+  color: #fff;
+  outline: none;
+}
+
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+section {
+  margin-top: 8rem;
+}
+
+section > h2, section > h5 {
+  text-align: center;
+  color: var(--color-light);
+}
+
+section > h2 {
+  color: var(--color-primary);
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.text-light {
+  color: var(--color-light);
+}
+
+a {
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+
+a:hover {
+  color: #fff;
+}
+
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: var(--color-primary);
+  padding: .75rem 1.2rem;
+  border-radius: .4rem;
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  transition: var(--transition);
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  color: var(--color-bg);
+}
+
+.contact-columns {
+  width: 58%;
+  display: grid;
+  grid-template-columns: 30% 58%;
+  gap: 12%;
+}
+
+article svg  {
+  display: inline-block;
+  font-size: 1.5rem;
+  margin-bottom: .5rem;
+}
+
+footer a {
+  color: var(--color-bg);
+}
+
+.permalinks {
+  gap: 2rem;
+  margin: 0 auto 3rem;
+}
+
+
+/* ANIMATIONS */
+
+
