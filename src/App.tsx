@@ -10,16 +10,21 @@ import { MyEducation } from './components/MyEducation'
 import { Experience } from './components/Experience'
 
 
+
+
+
+
 export default function App() {
   return (
     <>
-      <Header />
-      <MyEducation />
-      <MyTechnologies />
-      <Experience />
-      <Repositories />
-      <ContatMe />
-      <Footer />
+    <Header />
+    <MyEducation />
+    <MyTechnologies />
+    <Experience />
+    <Repositories />
+    <ContatMe />
+    <Repositories />
+    <Footer />
     </>
   )
 }
